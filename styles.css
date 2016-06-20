@@ -1,0 +1,107 @@
+footer a:hover {
+  color: #ccc; }
+
+.navigation-bar li:hover {
+  color: #47a3da;
+  border-top: 2px solid #47a3da;
+  border-left: 1px solid #47a3da;
+  border-right: 1px solid #47a3da; }
+
+header {
+  padding: 1em;
+  height: 14em;
+  text-align: center; }
+  header h1 {
+    font-size: 1em;
+    letter-spacing: 0.5em;
+    color: #47a3da;
+    position: relative;
+    width: 10em;
+    margin: 1em auto 0 auto; }
+  header .question-icon {
+    position: absolute;
+    font-size: 0.8em;
+    bottom: 12px;
+    right: -13%; }
+  header h5 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #47a3da;
+    margin-bottom: 0; }
+
+.navigation-icons {
+  display: inline-block;
+  padding: 0; }
+  .navigation-icons li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1em;
+    color: #47a3da; }
+  .navigation-icons i {
+    padding: 0.5em 0.6em 0.5em 0.6em;
+    border: 4px solid #47a3da;
+    border-radius: 50%; }
+  .navigation-icons .water-icon {
+    padding: 0.5em 0.73em 0.5em 0.73em; }
+
+.navigation-bar {
+  display: inline-block;
+  padding: 0 0 2em 0;
+  width: 100%; }
+  .navigation-bar li {
+    list-style-type: none;
+    float: left;
+    width: 20%;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #47a3da; }
+    .navigation-bar li:first-child {
+      border-left: 0; }
+    .navigation-bar li:last-child {
+      border-right: 0; }
+    .navigation-bar li:hover a {
+      color: #47a3da; }
+  .navigation-bar i {
+    font-size: 1em;
+    padding: 0.75em 0 0.75em 0; }
+  .navigation-bar a {
+    text-decoration: none;
+    color: #ccc; }
+
+section {
+  width: 100%; }
+
+.menu-item .item-image {
+  width: 21em;
+  height: 11em;
+  margin: 0 auto;
+  background: #47a3da;
+  text-align: center; }
+.menu-item img {
+  width: 28%;
+  padding: 1.7em;
+  margin-top: 0.9em;
+  border-radius: 50%;
+  background: #fff; }
+.menu-item h4 {
+  text-align: center;
+  font-size: 1.2em;
+  color: #47a3da; }
+.menu-item p {
+  text-align: center;
+  line-height: 1.4em;
+  color: #47a3da;
+  margin-bottom: 3em; }
+
+footer {
+  text-align: center;
+  margin: 8em 0 3em 0; }
+  footer span {
+    color: #47a3da; }
+  footer a {
+    text-decoration: none;
+    color: #47a3da; }
+
+/*# sourceMappingURL=styles.css.map */
