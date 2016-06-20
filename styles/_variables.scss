@@ -1,5 +1,7 @@
 $primary-color: #47a3da;
 $secondary-color: #ccc;
+$default-border: 1px solid $primary-color;
+$secondary-border: 1px solid $secondary-color;
 
 %hover-to-secondary {
   color: $secondary-color;
@@ -10,4 +12,5 @@ $secondary-color: #ccc;
   border-top: 2px solid $primary-color;
   border-left: 1px solid $primary-color;
   border-right: 1px solid $primary-color;
+  border-bottom: 0;
 }
