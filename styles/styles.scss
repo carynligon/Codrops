@@ -43,6 +43,13 @@ header {
   .water-icon {
     padding: 0.5em 0.73em 0.5em 0.73em;
   }
+  a {
+    text-decoration: none;
+    color: $primary-color;
+    &:hover {
+      @extend %hover-to-secondary;
+    }
+  }
 }
 
 .navigation-bar {
@@ -213,7 +220,7 @@ footer {
     }
     .question-icon {
       bottom: 12px;
-      left: 36%;
+      left: 162px;
     }
     h5 {
       margin: 0 0 0 5%;

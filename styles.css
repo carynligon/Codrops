@@ -1,4 +1,4 @@
-footer a:hover {
+.navigation-icons a:hover, footer a:hover {
   color: #ccc; }
 
 .navigation-bar li:hover {
@@ -44,6 +44,9 @@ header {
     border-radius: 50%; }
   .navigation-icons .water-icon {
     padding: 0.5em 0.73em 0.5em 0.73em; }
+  .navigation-icons a {
+    text-decoration: none;
+    color: #47a3da; }
 
 .navigation-bar {
   display: inline-block;
@@ -173,7 +176,7 @@ footer {
       margin: 2em 0 1em 5%; }
     header .question-icon {
       bottom: 12px;
-      left: 36%; }
+      left: 162px; }
     header h5 {
       margin: 0 0 0 5%;
       width: 50%;
