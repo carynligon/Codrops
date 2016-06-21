@@ -1,8 +1,14 @@
+.navigation-icons {
+  a:hover {
+    color: $secondary-color;
+  }
+}
+
 .box {
   width: 100%;
   text-align: center;
   background: $white;
-  margin: 0.3em 0;
+  margin: 0;
   height: 18em;
   border-bottom: 1px solid $secondary-color;
   i {
@@ -37,5 +43,48 @@
   }
   & span {
     display: inline-block;
+  }
+}
+
+@media screen and (min-width:670px) {
+  .box {
+    width: 49.9%;
+    float: left;
+  }
+  .box1, .box3, .box5 {
+    border-right: $secondary-border;
+  }
+  .box5, .box6 {
+    border-bottom: 0;
+  }
+  main::after {
+    content:"";
+    clear: both;
+    display: block;
+  }
+}
+
+@media screen and (min-width:880px) {
+  .box {
+    width: 33.15%;
+    float: left;
+  }
+  .box1, .box4 {
+    border-right: $secondary-border;
+  }
+  .box1, .box2, .box3 {
+    border-top: 0;
+    border-left: 0;
+    border-bottom: $secondary-border;
+  }
+  .box2, .box5 {
+    border-left: 0;
+    border-right: 0;
+  }
+  .box3, .box6 {
+    border-left: $secondary-border;
+  }
+  .box4, .box5, .box6 {
+    border-bottom: 0;
   }
 }

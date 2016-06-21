@@ -8,11 +8,14 @@ footer a:hover {
   border-right: 1px solid #47a3da;
   border-bottom: 0; }
 
+.navigation-icons a:hover {
+  color: #ccc; }
+
 .box {
   width: 100%;
   text-align: center;
   background: #fff;
-  margin: 0.3em 0;
+  margin: 0;
   height: 18em;
   border-bottom: 1px solid #ccc; }
   .box i {
@@ -42,6 +45,43 @@ footer a:hover {
   .box:hover span {
     display: inline-block; }
 
+@media screen and (min-width: 670px) {
+  .box {
+    width: 49.9%;
+    float: left; }
+
+  .box1, .box3, .box5 {
+    border-right: 1px solid #ccc; }
+
+  .box5, .box6 {
+    border-bottom: 0; }
+
+  main::after {
+    content: "";
+    clear: both;
+    display: block; } }
+@media screen and (min-width: 880px) {
+  .box {
+    width: 33.15%;
+    float: left; }
+
+  .box1, .box4 {
+    border-right: 1px solid #ccc; }
+
+  .box1, .box2, .box3 {
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ccc; }
+
+  .box2, .box5 {
+    border-left: 0;
+    border-right: 0; }
+
+  .box3, .box6 {
+    border-left: 1px solid #ccc; }
+
+  .box4, .box5, .box6 {
+    border-bottom: 0; } }
 header {
   padding: 1em;
   height: 14em;
