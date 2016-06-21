@@ -1,4 +1,4 @@
-@import "variables";
+@import "variables", "grid";
 
 header {
   padding: 1em;
@@ -46,9 +46,6 @@ header {
   a {
     text-decoration: none;
     color: $primary-color;
-    &:hover {
-      @extend %hover-to-secondary;
-    }
   }
 }
 

@@ -1,0 +1,41 @@
+.box {
+  width: 100%;
+  text-align: center;
+  background: $white;
+  margin: 0.3em 0;
+  height: 18em;
+  border-bottom: 1px solid $secondary-color;
+  i {
+    color: $primary-color;
+    font-size: 6em;
+    border-bottom: 4px solid $primary-color;
+    padding: 0.3em 5% 0.3em 5%;
+  }
+  h3 {
+    color: $primary-color;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-bottom: 0.6em;
+  }
+  span {
+    border-top: 4px solid $white;
+    padding: 0.5em 2em 0 2em;
+    font-size: 0.7em;
+    color: $white;
+    display: none;
+  }
+}
+
+.box:hover {
+  background: $primary-color;
+  & i {
+    color: $white;
+    border-bottom: 4px solid $white;
+  }
+  & h3 {
+    color: $white;
+  }
+  & span {
+    display: inline-block;
+  }
+}

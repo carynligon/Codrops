@@ -1,4 +1,4 @@
-.navigation-icons a:hover, footer a:hover {
+footer a:hover {
   color: #ccc; }
 
 .navigation-bar li:hover {
@@ -7,6 +7,40 @@
   border-left: 1px solid #47a3da;
   border-right: 1px solid #47a3da;
   border-bottom: 0; }
+
+.box {
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  margin: 0.3em 0;
+  height: 18em;
+  border-bottom: 1px solid #ccc; }
+  .box i {
+    color: #47a3da;
+    font-size: 6em;
+    border-bottom: 4px solid #47a3da;
+    padding: 0.3em 5% 0.3em 5%; }
+  .box h3 {
+    color: #47a3da;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-bottom: 0.6em; }
+  .box span {
+    border-top: 4px solid #fff;
+    padding: 0.5em 2em 0 2em;
+    font-size: 0.7em;
+    color: #fff;
+    display: none; }
+
+.box:hover {
+  background: #47a3da; }
+  .box:hover i {
+    color: #fff;
+    border-bottom: 4px solid #fff; }
+  .box:hover h3 {
+    color: #fff; }
+  .box:hover span {
+    display: inline-block; }
 
 header {
   padding: 1em;

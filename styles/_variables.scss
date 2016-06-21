@@ -2,9 +2,14 @@ $primary-color: #47a3da;
 $secondary-color: #ccc;
 $default-border: 1px solid $primary-color;
 $secondary-border: 1px solid $secondary-color;
+$white: #fff;
 
 %hover-to-secondary {
   color: $secondary-color;
+}
+
+%hover-border {
+  border: 4px solid $secondary-color;
 }
 
 %hover-nav {
