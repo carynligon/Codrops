@@ -14,6 +14,7 @@ $white: #fff;
 
 %hover-nav {
   color: $primary-color;
+  outline: none;
   border-top: 2px solid $primary-color;
   border-left: 1px solid $primary-color;
   border-right: 1px solid $primary-color;

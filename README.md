@@ -1,5 +1,7 @@
 ## Codrops Project
 
+[View Live](http://frightened-attempt.surge.sh/)
+
 This webpage was built based off of images at three different screen sizes. The page was created mobile-first. Changing view width should appear to be fluid.
 
 The structure for this project is:
